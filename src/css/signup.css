@@ -1,0 +1,101 @@
+.signup a {
+  text-decoration: none;
+}
+.signup {
+  background-image: url(../img/bg-ban.jpg);
+  background-size: cover;
+}
+.signup .sign-content {
+  width: 28%;
+  border: 1px solid #00000080;
+  box-shadow: 1px 1px 0px #625f5f4f;
+  position: absolute;
+  top: 54%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.signup .sign-content h4 {
+  font-size: 16px;
+  border-bottom: 1px solid #00000080;
+  padding: 10px;
+  font-weight: 400;
+  color: #000000b3;
+  margin: 0;
+}
+
+.signup .sign-content figure {
+  text-align: center;
+  background-color: #fff;
+  margin: 0;
+  padding-top: 25px;
+}
+
+.signup .sign-content figure .logo {
+  width: 150px;
+}
+
+.signup.sign-content ul {
+  padding: 15px;
+  background: #ffffff;
+  list-style: none;
+}
+
+.signup .sign-content ul li {
+  width: 90%;
+  font-size: 15px;
+  font-weight: 600;
+  color: #000000b3;
+  margin-bottom: 30px;
+  position: relative;
+}
+.signup .sign-content ul li label {
+  height: 25px;
+}
+.signup .sign-content ul li::before {
+  position: absolute;
+  content: "\f023";
+  font: normal normal normal 16px/1 FontAwesome;
+  left: 0;
+  top: 25px;
+  background: #eee;
+  border: 1px solid #00000080;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 3px 0 0 3px;
+}
+
+.signup .sign-content ul li input {
+  width: 90%;
+  margin-left: 40px;
+  padding: 0 5px;
+  outline: none;
+  height: 40px;
+  border: 1px solid #00000080;
+  border-radius: 0 3px 3px 0;
+}
+
+.signup .sign-content button {
+  padding: 10px 0;
+  width: 100px;
+  border-radius: 2px;
+  background: #edb036;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: 0.5s;
+}
+.signup .sign-content button:hover {
+  background-color: #000;
+}
+.signup .sign-content ul li a {
+  font-size: 13px;
+  color: #1e91cf;
+}
