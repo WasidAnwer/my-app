@@ -27,10 +27,12 @@ function App() {
         {/* <Navbar />
         <Home /> */}
         <Routes>
-          <Route path="/dashboard" element={<Home />} />
-          <Route path="/Add" element={<Add />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/add" element={<Add />} />
           {/* <Route path="/about" element={<About />} /> */}
           <Route path="/List" element={<ProductList />} />
+          <Route path="/edit" element={<Items />} />
+          <Route path="/" element={<Login />} />
         </Routes>
       </BrowserRouter>
     </div>
