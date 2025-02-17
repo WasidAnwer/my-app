@@ -39,7 +39,7 @@ function Navbar1() {
               </span>
             </a>
             <ul className="ul-menu">
-              <li> <NavLink to="/adm">Home</NavLink></li>
+              <li> <NavLink to="/home">Home</NavLink></li>
               <li><a href="#">Profile</a></li>
               <li><a href="#">Password</a></li>
               <li><a href="#">Logout</a></li>
@@ -59,10 +59,10 @@ function Navbar1() {
             </a>
             <ul className="ul-menu">
               <li className={echronType === "add" ? "active" : ""} onClick={() => evSetEchronType("add")} >
-                <NavLink to="/adm/add?type=add">Add</NavLink>
+                <NavLink to="/add">Add</NavLink>
               </li>
               <li className={echronType === "edit" ? "active" : ""} onClick={() => evSetEchronType("edit")}>
-                <NavLink to="/adm/customer?type=vip">Edit</NavLink>
+                <NavLink to="/edit">Edit</NavLink>
               </li>
               <li className={echronType === "list" ? "active" : ""} onClick={() => evSetEchronType("list")}>
                 <NavLink to="/List">List</NavLink>
