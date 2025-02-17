@@ -7,16 +7,17 @@ import Header1 from "./common/Header1";
 // import Contact from "./pages/Contact";
 // import SignUp from "./pages/SignUp";
 import ProductList from "./pages/products/ProductList";
-import Navbar from "./common/Navbar";
+// import Navbar from "./common/Navbar";
 import Items from "./pages/items/Items";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Navbar1 from "./common/Navbar1";
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
         <Header1 />
-        <Navbar />
+        <Navbar1 />
         {/* <Items /> */}
         {/* <Add /> */}
         {/* <ProductList /> */}
