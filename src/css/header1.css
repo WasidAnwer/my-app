@@ -10,8 +10,12 @@ header {
 }
 header .head-left {
   position: relative;
+  align-content: center;
 }
-header .head-left::before {
+header .head-left .logo figure {
+  margin-bottom: 0;
+}
+/* header .head-left::before {
   content: "";
   position: absolute;
   right: -51px;
@@ -19,7 +23,7 @@ header .head-left::before {
   width: 1px;
   height: 78px;
   background-color: #f1f1f1;
-}
+} */
 /* header .logo-1 {
   width: 34%;
   margin-left: 30px;
@@ -81,7 +85,7 @@ header .head-right ul li .admin-txt {
 }
 
 header .head-right ul li .log-out {
-  margin-top: 9px;
+  /* margin-top: 9px; */
   display: block;
   color: #6d6d6d;
 }

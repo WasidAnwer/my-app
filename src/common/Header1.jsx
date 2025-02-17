@@ -11,7 +11,9 @@ function Header1() {
           <div className="row">
             <div className="head-left col-2">
               <div className="logo">
-                <img className="logo-1" src={mark} alt="mainLogo" />
+                <figure>
+                  <img src={mark} alt="" />
+                </figure>
               </div>
             </div>
             <div className="head-right col-10">
