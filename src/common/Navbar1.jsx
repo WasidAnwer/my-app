@@ -65,7 +65,7 @@ function Navbar1() {
                 <NavLink to="/adm/customer?type=vip">Edit</NavLink>
               </li>
               <li className={echronType === "list" ? "active" : ""} onClick={() => evSetEchronType("list")}>
-                <NavLink to="/adm/product?type=list">List</NavLink>
+                <NavLink to="/List">List</NavLink>
               </li>
               <li className={echronType === "detail" ? "active" : ""} onClick={() => evSetEchronType("detail")}>
                 <NavLink to="/adm/customer?type=detail">Detail</NavLink>
