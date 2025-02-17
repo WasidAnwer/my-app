@@ -12,11 +12,11 @@ function SignUp() {
                             <img className="logo" src={modeva1} alt="" />
                         </figure>
                         <ul>
-                            <li>
+                            <li className='li1'>
                                 <label htmlFor="">Enter Your Name</label>
                                 <input type="text" placeholder="Name" name="name" />
                             </li>
-                            <li>
+                            <li className='li2'>
                                 <label htmlFor="">Enter Your Email</label>
                                 <input type="email" placeholder="Email" name="email" />
                             </li>
@@ -28,11 +28,11 @@ function SignUp() {
                                 <label htmlFor="">Enter Your City</label>
                                 <input type="city" placeholder="City" name="city" />
                             </li> */}
-                            <li>
+                            <li className='li3'>
                                 <label htmlFor="">Enter Your Password</label>
                                 <input type="password" placeholder="Password" name="password" />
                             </li>
-                            <li>
+                            <li className='li4'>
                                 <label htmlFor="">Confirm Password</label>
                                 <input type="password" placeholder="Confirm Password" name="confirmPassword" />
                             </li>

@@ -1,0 +1,15 @@
+.add-item {
+  position: relative;
+  padding-top: 123px;
+  margin-left: 265px;
+}
+.add-item .create {
+  width: 100%;
+  height: 500px;
+  background: rgb(220, 220, 220);
+}
+.add-item .item-add {
+  width: 100%;
+  height: 500px;
+  background: rgb(151, 151, 151);
+}

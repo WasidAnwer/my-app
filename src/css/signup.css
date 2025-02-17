@@ -52,9 +52,20 @@
 .signup .sign-content ul li label {
   height: 25px;
 }
+.signup .sign-content ul .li1::before {
+  content: "\f007";
+}
+.signup .sign-content ul .li2::before {
+  content: "\f0e0";
+}
+.signup .sign-content ul .li3::before {
+  content: "\f023";
+}
+.signup .sign-content ul .li4::before {
+  content: "\f023";
+}
 .signup .sign-content ul li::before {
   position: absolute;
-  content: "\f023";
   font: normal normal normal 16px/1 FontAwesome;
   left: 0;
   top: 25px;
