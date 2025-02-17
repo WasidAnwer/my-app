@@ -1,61 +1,41 @@
 import React from "react";
-// import { NavLink } from "react-router-dom";
-import avtar from "../img/pic.jpg";
+import { NavLink } from "react-router-dom";
+import mark from "../img/modevaLog.png";
 import "../css/common.css";
 import "../css/header1.css";
-function Header() {
+function Header1() {
   return (
     <main>
       <header>
-        <strong className="welcome">Welcom to Admin Panel</strong>
-
-        <div className="icon-list">
-          <ul>
-            <li className="Profile">
-              <figure>
-                <img src={avtar} alt="" />
-              </figure>
-            </li>
-            <strong>wasid anwer</strong>
-            <li>
-              <i class="fa-solid fa-bell"></i>
-            </li>
-            <li>
-              <i class="fa-solid fa-cart-flatbed-suitcase"></i>
-            </li>
-            <li>
-              <i class="fa-solid fa-heart"></i>
-            </li>
-            <li>
-              <i class="fa-solid fa-location-dot"></i>
-            </li>
-            <li>
-              <i class="fa-solid fa-user"></i>
-            </li>
-          </ul>
+        <div className="container-fluid">
+          <div className="row">
+            <div className="head-left col-2">
+              <div className="logo">
+                <img className="logo-1" src={mark} alt="mainLogo" />
+              </div>
+            </div>
+            <div className="head-right col-10">
+              <ul className="row">
+                <li>
+                  <a className="navi" href="#">
+                    <figure>
+                      <img src="" alt="" />
+                    </figure>
+                  </a>
+                </li>
+                <li>
+                  <NavLink to="/adm/logout" className="navi">
+                    <span className="log-out">
+                      <i className="fa fa-sign-out"></i> Logout
+                    </span>
+                  </NavLink>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
-        {/* <div className="pro-details">
-          <div className="dropdown-img"></div>
-          <strong>wasid anwer</strong>
-          <ul className="drop-down">
-            <li></li>
-            <li></li>
-          </ul>
-        </div> */}
-        {/* <div className="search-box">
-          <input
-            type="text"
-            className="search-input"
-            placeholder="Search..."
-            value=""
-            onChange=""
-          />
-          <span className="search-icon">
-            <i className="fa-solid fa-magnifying-glass"></i>
-          </span>
-        </div> */}
       </header>
     </main>
   );
 }
-export default Header;
+export default Header1;

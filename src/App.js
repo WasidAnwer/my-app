@@ -1,8 +1,8 @@
-// import Header from "./common/Header";
+
 import Login from "./pages/Login";
 import Home from "./pages/Home";
 import Add from "./pages/products/Add";
-import Header from "./common/Header";
+import Header1 from "./common/Header1";
 // import About from "./pages/About";
 // import Contact from "./pages/Contact";
 // import SignUp from "./pages/SignUp";
@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <Header />
+        <Header1 />
         <Navbar />
         {/* <Items /> */}
         {/* <Add /> */}

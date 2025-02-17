@@ -20,10 +20,10 @@ header .head-left::before {
   height: 78px;
   background-color: #f1f1f1;
 }
-header .logo-1 {
+/* header .logo-1 {
   width: 34%;
   margin-left: 30px;
-}
+} */
 header .head-left ul li {
   font-size: 24px;
   padding-left: 42px;
