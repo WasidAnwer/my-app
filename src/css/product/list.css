@@ -6,7 +6,7 @@
 .markup-list .srch-form {
   margin-top: 80px;
   padding: 12px;
-  background: #a4a4a4;
+  background: #19222e;
 }
 .markup-list .srch-form .serch {
   display: flex;
@@ -30,14 +30,14 @@
   padding: 5px;
 }
 .markup-list .srch-form .serch .srch-btn button {
-  background: linear-gradient(145deg, #cd9a00, #9f6d00);
+  background: linear-gradient(145deg, #fc136f, #9b0340);
   width: 100%;
   height: 45px;
   border: none;
 }
 .markup-list .listing .border {
   width: 100%;
-  background: #fff;
+  background: #19222e;
 }
 .markup-list .listing .border table {
   width: 100%;
@@ -49,7 +49,7 @@
   font-size: 15px;
   text-align: center;
   border-bottom: 1px solid rgb(225, 225, 225);
-  background: #9f6d00;
+  background: #fc136f;
   color: #fff;
   text-transform: uppercase;
 }
@@ -74,7 +74,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #ccc;
+  background-color: #19222e;
 }
 .markup-list .link ul {
   display: flex;
@@ -94,7 +94,7 @@
 .markup-list .btns button {
   padding: 10px 20px;
   margin: 0 10px;
-  background: linear-gradient(145deg, #cd9a00, #9f6d00);
+  background: linear-gradient(145deg, #a02355, #fc136f);
   border: none;
   color: #fff;
   border-radius: 5px;

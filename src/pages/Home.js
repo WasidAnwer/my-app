@@ -17,7 +17,7 @@ function Home() {
 					<div className="icon"><i class="fa-solid fa-cart-shopping"></i></div>
 				</div>
 
-				<div className="card blue">
+				<div className="card pink">
 					<div className="content">
 						<h4>Customers</h4>
 						<h2>15.07k</h2>
@@ -29,7 +29,7 @@ function Home() {
 					<div className="icon"><i class="fa-solid fa-users-line"></i></div>
 				</div>
 
-				<div className="card green">
+				<div className="card pink">
 					<div className="content">
 						<h4>Ticket Resolved</h4>
 						<h2>578</h2>
@@ -41,7 +41,7 @@ function Home() {
 					<div className="icon"><i class="fa-solid fa-laptop"></i></div>
 				</div>
 
-				<div className="card orange">
+				<div className="card pink">
 					<div className="content">
 						<h4>Revenue Today</h4>
 						<h2>$11.61k</h2>
@@ -52,7 +52,7 @@ function Home() {
 					</div>
 					<div className="icon"><i class="fa-solid fa-hand-holding-dollar"></i></div>
 				</div>
-				<div className="card green">
+				<div className="card pink">
 					<div className="content">
 						<h4>New Users</h4>
 						<h2>578</h2>
@@ -63,7 +63,7 @@ function Home() {
 					</div>
 					<div className="icon"><i class="fa-solid fa-users"></i></div>
 				</div>
-				<div className="card blue">
+				<div className="card pink">
 					<div className="content">
 						<h4>Total Orders</h4>
 						<h2>15.07k</h2>

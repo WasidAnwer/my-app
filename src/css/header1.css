@@ -15,15 +15,15 @@ header .head-left {
 header .head-left .logo figure {
   margin-bottom: 0;
 }
-/* header .head-left::before {
+header .head-left::before {
   content: "";
   position: absolute;
-  right: -51px;
+  right: -38px;
   top: -7px;
   width: 1px;
   height: 78px;
-  background-color: #f1f1f1;
-} */
+  background-color: #fc136f;
+}
 /* header .logo-1 {
   width: 34%;
   margin-left: 30px;
@@ -68,8 +68,15 @@ header .head-right ul li a.navi {
   color: #6d6d6d;
 }
 header .head-right ul li a figure {
-  width: 50px;
+  width: 60px;
   margin: 0;
+  height: 60px;
+  border-radius: 50%;
+  border: 1px solid rgb(93, 93, 93);
+}
+header .head-right ul li a figure img {
+  width: 100%;
+  border-radius: 50%;
 }
 header .head-right ul li:before {
   position: absolute;

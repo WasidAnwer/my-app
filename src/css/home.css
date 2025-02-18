@@ -66,9 +66,9 @@
 
 /* Card Colors */
 .pink {
-  background: linear-gradient(to right, #6a0572, #e100ff);
+  background: linear-gradient(to right, #fc136f, #fc136f);
 }
-.blue {
+/* .blue {
   background: linear-gradient(to right, #1e3c72, #2a5298);
 }
 .green {
@@ -76,7 +76,7 @@
 }
 .orange {
   background: linear-gradient(to right, #c76c04, #f2a900);
-}
+} */
 .recent-order {
   display: flex;
   max-width: 100%;

@@ -1,14 +1,16 @@
 
-import Login from "./pages/Login";
+// import Login from "./pages/Login";
 import Home from "./pages/Home";
 import Add from "./pages/products/Add";
+// import ProductAdd from "./pages/ProductAdd";
 import Header1 from "./common/Header1";
 // import About from "./pages/About";
 // import Contact from "./pages/Contact";
 // import SignUp from "./pages/SignUp";
 import ProductList from "./pages/products/ProductList";
 // import Navbar from "./common/Navbar";
-import Items from "./pages/items/Items";
+// import Items from "./pages/items/Items";
+import Details from "./pages/Details";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Navbar1 from "./common/Navbar1";
 
@@ -31,8 +33,8 @@ function App() {
           <Route path="/add" element={<Add />} />
           {/* <Route path="/about" element={<About />} /> */}
           <Route path="/List" element={<ProductList />} />
-          <Route path="/edit" element={<Items />} />
-          <Route path="/" element={<Login />} />
+          <Route path="/edit" element={<Details />} />
+          {/* <Route path="/" element={<Login />} /> */}
         </Routes>
       </BrowserRouter>
     </div>

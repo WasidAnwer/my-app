@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import mark from "../img/modevaLog.png";
+import mark1 from "../img/pic.jpg";
 import "../css/common.css";
 import "../css/header1.css";
 function Header1() {
@@ -21,7 +22,7 @@ function Header1() {
                 <li>
                   <a className="navi" href="#">
                     <figure>
-                      <img src="" alt="" />
+                      <img src={mark1} alt="" />
                     </figure>
                   </a>
                 </li>

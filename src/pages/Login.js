@@ -1,5 +1,5 @@
 import "../css/login.css";
-import modeva1 from "../img/marks.png";
+import modeva1 from "../img/modevaLog.png";
 function Login() {
     return (
         <div className="markup-login">

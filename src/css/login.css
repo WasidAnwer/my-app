@@ -13,6 +13,7 @@
   top: 54%;
   left: 50%;
   transform: translate(-50%, -50%);
+  background: #19222e;
 }
 
 .markup-login .content h4 {
@@ -26,13 +27,14 @@
 
 .markup-login .content figure {
   text-align: center;
-  background-color: #fff;
+  background-color: #19222e;
   margin: 0;
   padding-top: 25px;
 }
 
 .markup-login .content figure .logo {
   width: 150px;
+  filter: brightness(8);
 }
 
 .markup-login.content ul {
@@ -81,7 +83,7 @@
   padding: 10px 0;
   width: 100px;
   border-radius: 2px;
-  background: #edb036;
+  background: #fc136f;
   border: none;
   color: #fff;
   font-size: 16px;
