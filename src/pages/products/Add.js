@@ -61,7 +61,7 @@ function Add() {
                       <div className="col-md-12">
                         <div className="field">
                           <label>Product Name</label>
-                          <input type="text" name="product_name" />
+                          <input className="brand" type="text" name="product_name" />
                         </div>
                       </div>
                     </div>
@@ -69,13 +69,13 @@ function Add() {
                       <div className="col-md-6">
                         <div className="field">
                           <label>Brand Name</label>
-                          <input type="text" name="brand_name" />
+                          <input className="brand" type="text" name="brand_name" />
                         </div>
                       </div>
                       <div className="col-md-6">
                         <div className="field">
                           <label>Category</label>
-                          <br />
+
                           <select name="category">
                             <option value="">Select Category</option>
                             <option value="1">Category 1</option>
@@ -86,19 +86,18 @@ function Add() {
                       <div className="col-md-6">
                         <div className="field">
                           <label>Regular Price</label>
-                          <input type="text" name="regular_price" />
+                          <input className="brand" type="text" name="regular_price" />
                         </div>
                       </div>
                       <div className="col-md-6">
                         <div className="field">
                           <label>Sell Price</label>
-                          <input type="text" name="sell_price" />
+                          <input className="brand" type="text" name="sell_price" />
                         </div>
                       </div>
                       <div className="col-md-6">
                         <div className="field">
                           <label>Stock Status</label>
-                          <br />
                           <select name="stock_status">
                             <option value="">Select Stock Status</option>
                             <option value="1">In Stock</option>

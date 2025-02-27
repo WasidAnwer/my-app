@@ -6,38 +6,82 @@
 .markup-add .form-add {
   margin-top: 80px;
 }
-.markup-add .image,
-.markup-add .image input,
-.markup-add .image .icon1 {
-  width: 250px;
-  height: 250px;
+h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.fields {
+  padding: 15px;
+}
+
+.field {
+  /* margin-bottom: 15px; */
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.brand,
+select {
+  width: 100%;
+  padding: 8px;
+  height: 36px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.brand:focus,
+select:focus {
+  outline: none;
+  border-color: #28a745;
+}
+
+/* Image Upload Section */
+.image {
+  border: 2px dashed #ccc;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #fafafa;
   position: relative;
 }
-.markup-add .image {
-  background: blue;
-  border-radius: 6px;
-  border: 1px dashed #fff;
-  margin-top: 10px;
+
+.image:hover {
+  border-color: #28a745;
 }
 
-.markup-add .image input {
+.file-input {
+  position: absolute;
+  width: 100%;
+  height: 100%;
   opacity: 0;
   cursor: pointer;
-  z-index: 100;
 }
 
-.markup-add .image .icon1 {
-  position: absolute;
-  top: 0;
-  align-content: center;
-  text-align: center;
-  color: #fff;
-  font-size: 26px;
+.icon1 img {
+  max-width: 100px;
+  height: auto;
+  margin-top: 5px;
 }
-.markup-add .form {
-  padding: 25px 0;
+
+.subheading-3 {
+  font-size: 14px;
+  color: #777;
 }
-.markup-add .form .fields {
-  background-color: #fff;
-  padding: 20px;
+
+/* Responsive */
+@media (max-width: 768px) {
+  .container {
+    padding: 15px;
+  }
+  .col-6 {
+    width: 100%;
+  }
 }
