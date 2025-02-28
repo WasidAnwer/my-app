@@ -1,118 +1,66 @@
 import { useState } from "react";
 import "../../css/product/add.css";
 
+import P1 from "../../img/p-1.png";
+
 function Add() {
-  const [selectedFiles, setSelectedFiles] = useState(Array(4).fill(null));
-  const [previewUrls, setPreviewUrls] = useState(Array(4).fill(""));
-
-  const handleFileChange = (event, index) => {
-    if (event.target.files.length > 0) {
-      const file = event.target.files[0];
-      const updatedFiles = [...selectedFiles];
-      updatedFiles[index] = file;
-      setSelectedFiles(updatedFiles);
-
-      // Generate preview URL if file is an image
-      if (file.type.startsWith("image/")) {
-        const preview = URL.createObjectURL(file);
-        const updatedPreviews = [...previewUrls];
-        updatedPreviews[index] = preview;
-        setPreviewUrls(updatedPreviews);
-      }
-    }
-  };
-
   return (
     <>
-      <div className="markup-add">
-        <div className="container m-0">
-          <div className="form-add">
-            <h2>Add Product</h2>
-            <div className="fields">
-              <form>
-                <div className="row">
-                  {/* Image Upload Section */}
-                  <div className="col-6">
-                    <div className="row">
-                      {[0, 1, 2, 3].map((index) => (
-                        <div className="col-md-6" key={index}>
-                          <div className="image">
-                            <input
-                              type="file"
-                              className="file-input"
-                              onChange={(e) => handleFileChange(e, index)}
-                            />
-                            <div className="icon1">
-                              {previewUrls[index] ? (
-                                <img src={previewUrls[index]} alt="Uploaded" width="100" />
-                              ) : (
-                                <p className="subheading-3">Browse image</p>
-                              )}
-                            </div>
-                          </div>
-                        </div>
-                      ))}
+      <section className="Add_section">
+        <div className="container">
+          <div className="row">
+            <div className="col-12 col-lg-3">
+              <div className="product">
+                <div className="content">
+                  <div class="mt-3">
+                    <img src={P1} alt="Product"/>
+                    <h4>Men Black Slim Fit T-shirt <span>(Fashion)</span></h4>
+                    <h5 class="mt-3">Price :</h5>
+                    <h4><b><span>$100</span></b><b>$80</b><span>(30%Off)</span></h4>
+                    <h5 class="mt-3">Size :</h5>
+                    <div class="sizes">
+                      <input type="checkbox" id="size-s"/>
+                      <label for="size-s">S</label>
+                      <input type="checkbox" id="size-m"/>
+                      <label for="size-m">M</label>
+                      <input type="checkbox" id="size-xl"/>
+                      <label for="size-xl">Xl</label>
+                      <input type="checkbox" id="size-xxl"/>
+                      <label for="size-xxl">XXL</label>
                     </div>
-                  </div>
-
-                  {/* Product Details Section */}
-                  <div className="col-6">
-                    <div className="row">
-                      <div className="col-md-12">
-                        <div className="field">
-                          <label>Product Name</label>
-                          <input className="brand" type="text" name="product_name" />
-                        </div>
-                      </div>
-                    </div>
-                    <div className="row">
-                      <div className="col-md-6">
-                        <div className="field">
-                          <label>Brand Name</label>
-                          <input className="brand" type="text" name="brand_name" />
-                        </div>
-                      </div>
-                      <div className="col-md-6">
-                        <div className="field">
-                          <label>Category</label>
-
-                          <select name="category">
-                            <option value="">Select Category</option>
-                            <option value="1">Category 1</option>
-                            <option value="2">Category 2</option>
-                          </select>
-                        </div>
-                      </div>
-                      <div className="col-md-6">
-                        <div className="field">
-                          <label>Regular Price</label>
-                          <input className="brand" type="text" name="regular_price" />
-                        </div>
-                      </div>
-                      <div className="col-md-6">
-                        <div className="field">
-                          <label>Sell Price</label>
-                          <input className="brand" type="text" name="sell_price" />
-                        </div>
-                      </div>
-                      <div className="col-md-6">
-                        <div className="field">
-                          <label>Stock Status</label>
-                          <select name="stock_status">
-                            <option value="">Select Stock Status</option>
-                            <option value="1">In Stock</option>
-                            <option value="2">Out of Stock</option>
-                          </select>
-                        </div>
-                      </div>
+                    <h5 class="mt-3">Colors :</h5>
+                    <div class="colors">
+                      <input type="checkbox" id="color-dark"/>
+                      <label for="color-dark"> <i class="fa-solid fa-circle text-dark"></i></label>
+                      <input type="checkbox" id="color-yellow"/>
+                      <label for="color-yellow"> <i class="fa-solid fa-circle text-warning"></i></label>
+                      <input type="checkbox" id="color-white"/>
+                      <label for="color-white"> <i class="fa-solid fa-circle text-white"></i></label>
+                      <input type="checkbox" id="color-red"/>
+                      <label for="color-red"> <i class="fa-solid fa-circle text-danger"></i></label>
                     </div>
                   </div>
                 </div>
-              </form>
+              </div>
+            </div>
+            <div class="col-12 col-lg-9">
+              <div class="product-fields">
+                <div class="heading">
+                  <h4>Add Product Photo</h4>
+                </div>
+                <div class="content">
+                  <div class="inner">
+                    <input type="file"/><br />
+                    <i class="fa-solid fa-cloud-arrow-up"></i>
+                    <h3 class="mt-4">Drop your images here, or <span>click to browse</span></h3>
+                    <span>1600 x 1200 (4:3) recommended. PNG, JPG and GIF files are allowed</span>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 }
