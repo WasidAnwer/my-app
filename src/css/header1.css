@@ -5,7 +5,7 @@ header {
   color: #ffffff;
   box-shadow: 0 1px 3px #00000069;
   position: fixed;
-  z-index: 10;
+  z-index: 100;
   top: 0;
 }
 header .head-left {

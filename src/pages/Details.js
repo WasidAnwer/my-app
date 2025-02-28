@@ -1,6 +1,6 @@
 import React from "react";
 import "../css/product/details.css";
-import imgPro from "../img/product-10.webp";
+// import imgPro from "../img/product-10.webp";
 
 function Details() {
 
