@@ -35,6 +35,7 @@ span {
 
 .Add_section .product .content h4 b {
 	margin-right: 10px;
+	font-weight: 600;
 }
 
 .Add_section .product .content h4 b span {
@@ -111,7 +112,7 @@ span {
 
 .Add_section .product-fields .heading {
 	background: #fff;
-	padding: 20px 24px;
+	padding: 10px;
 	border-radius: 15px 15px 0 0;
 	border-bottom: 1px solid #eaedf1;
 }
@@ -160,4 +161,42 @@ span {
 .Add_section .product-fields .content .inner h3 span {
 	font-size: 28px;
 	color: #ff6c2f;
+}
+
+.Add_section .product-fields .content .field {
+	text-align: start;
+}
+
+.Add_section .product-fields .content .field label {
+	margin-bottom: 6px;
+}
+
+.Add_section .product-fields .content .field label,
+.Add_section .product-fields .content .field input,
+.Add_section .product-fields .content .field select {
+	font-size: 14px;
+	font-weight: 500;
+	color: #5d7186;
+}
+
+.Add_section .product-fields .content .field input::placeholder {
+	color: #5d7186;
+}
+
+.Add_section .product-fields .content .field input:focus {
+	border: 1px solid #c4c5c5;
+}
+
+.Add_section .product-fields .content .field input,
+.Add_section .product-fields .content .field select {
+	display: block;
+	outline: none;
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #d8dfec;
+	border-radius: 10px;
+}
+
+.Add_section .product-fields .content .field select {
+	background: #fff;
 }
